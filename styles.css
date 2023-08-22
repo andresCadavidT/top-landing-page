@@ -221,3 +221,17 @@
 
 /* Termina section3, comienza footer */ 
 
+
+.container-footer{
+    display: block;
+    background-color: #290000;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
