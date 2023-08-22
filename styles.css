@@ -146,3 +146,30 @@
 
 /* Termina section1, comienza section2 */ 
 
+.container-section2{
+    display:block;
+    background-color: #E5E7EB;
+}  
+
+.section2{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 90px 0px; 
+}
+
+.p1-section2{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.p2-section2{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+
+/* Termina section2, comienza section3 */ 
