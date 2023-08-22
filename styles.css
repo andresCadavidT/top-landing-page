@@ -7,6 +7,7 @@
 .container-header {
     display:block;
     background-color: #520000;
+
 }
 
 .header{
@@ -47,8 +48,6 @@
     height: auto;
 }
 
-
-
 .box-title-img-header{
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +57,7 @@
     gap: 80px;
     padding: 15px;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .header .box-title-img-header img{
@@ -67,12 +67,15 @@
 
 .box-title-header h1{
     display: flex;
-    width: 230px;
+    width: 350px;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .box-title-header p{
     display: flex;
     width: 400px;
+    font-size: 18px;
 }
 
 .box-title-header button{
@@ -91,3 +94,55 @@
     flex-direction: column;
     gap: 16px;
 }
+
+
+/* Termina el Header, comienza section1 */
+
+.container-section1{
+    display: block;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;          /* NOTA: Se debe usar max-width, no width, para que el flex sea responsivo  */ 
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.box-characters-section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-section1{
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.characters-section1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.characters-section1 p{
+    max-width: 150px;
+    text-align: center;
+}
+
+.characters-section1 img{
+    border: 2px solid #520000 ;
+    border-radius: 10px;
+    width: 150px;
+}
+
+/* Termina section1, comienza section2 */ 
+
