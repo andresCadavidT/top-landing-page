@@ -5,5 +5,6 @@ Esta es una pagina creada con Html y Css basicos, aprendiendo con https://www.th
 Agradecimientos - Reconocimientos - Creditos
 
 Imagen header https://www.pngegg.com/en/png-wtllz/
-logo https://www.pngaaa.com/download/1742451
+Logo https://www.pngaaa.com/download/1742451
 Textos generados con https://chat.openai.com/
+Paleta de colores https://coolors.co/

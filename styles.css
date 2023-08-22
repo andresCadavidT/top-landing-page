@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.container-header {
+    display:block;
+    background-color: #520000;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*  
+    ****nota importante **** 
+    *** Centrar el contenido de un flex que ya tiene un justify ***
+    **"margin 0 auto" funciona en un "display:flex" que esta usando "justify-content: space-between;", si el padre es "display:block" **
+    *esto tambien permite que el "flex grow shrink basis" siga funcionando*
+*/ 
+
+.box-logo-links-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.box-links-header{
+    display: flex;
+    gap: 18px;
+}
+
+.box-links-header a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.img-logo-header{
+    width: 75px;
+    height: auto;
+}
+
+
+
+.box-title-img-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 80px;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.header .box-title-img-header img{
+    width: 250px;
+    height: auto;
+}
+
+.box-title-header h1{
+    display: flex;
+    width: 230px;
+}
+
+.box-title-header p{
+    display: flex;
+    width: 400px;
+}
+
+.box-title-header button{
+    background-color: #780000;
+    color: white;
+    width: 120px;
+    padding: 6px 18px;
+    border-radius: 10px;
+    border: 2px solid #290000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.box-title-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
